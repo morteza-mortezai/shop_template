@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Shop</title>
+    <link href="img/favicon.ico" rel="icon" type="image/x-icon"/>
+
+    <link rel="stylesheet" href="css/bootstrap-rtl.css">
+
+
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <!-- owl carousel -->
+    <link rel="stylesheet" href="OwlCarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="OwlCarousel/owl.theme.default.min.css">
+    <script src="js/jquery-3.5.1.min.js"></script>
+
+    <script src="OwlCarousel/dist/owl.carousel.js"></script>
+
+    <!--Price Slider-->
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link rel="stylesheet" href="css/jquery-ui.css">
+
+    <!--Price Slider End-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/custom.js"></script>
+</head>
+<body>
+<!--Nav Menu-->
+<div class="mb-2">
+
+    <div class="container-fluid ">
+        <div class="row">
+            <div class="col-12">
+                <nav class=" navbar  navbar-expand-lg navbar-light pt-4 pb-3 " style="z-index: 100;">
+                    <a class="navbar-brand " href="#">فروشگاه کفش و کتونی</a>
+                    <button class="navbar-toggler  " type="button" data-toggle="collapse"
+                            data-target="#navbarNavDropdown"
+                            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">خانه <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">فروشگاه</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">وبلاگ</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                   data-toggle="dropdown"
+                                   aria-haspopup="true" aria-expanded="false">
+                                    فروشگاه
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <a class="dropdown-item" href="#">Action</a>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <ul class="navbar-nav list-inline width-200px">
+                        <li><i class='bx bx-user bx-sm pr-4'></i></li>
+                        <li><i class='bx bx-search bx-sm pr-4'></i></li>
+                        <li><i class='bx bx-heart bx-sm pr-4'></i>
+                        </li>
+                        <li><i class='bx bx-cart bx-sm bx-flip-horizontal pl-4 position-relative '><span
+                                class="badge-pill background-btn position-absolute bx-flip-horizontal">2</span></i>
+                        </li>
+                    </ul>
+
+
+                </nav>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!--Nav Menu End-->
+
+<!--Bread Cramp Bar-->
+<div class="bg-f9 mb-5 border-top">
+    <div class="container ">
+        <div class="row">
+            <div class="col-12">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb pr-0 pt-4 mb-0">
+                        <li class="breadcrumb-item"><a href="#">خانه</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">فروشگاه</li>
+                    </ol>
+                </nav>
+                <h1 class="pb-3">فروشگاه</h1>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Bread Cramp Bar End-->
+
+
+<!--MAin-->
+<section>
+    <div class="container ">
+        <div class="row ">
+            <!--Right Side Bar-->
+            <div class="col-lg-3">
+                <div class="dropdown-c mb-3 ">
+                    <a class=" drp-btn dropdown-toggle-c d-block" role="button">
+                        <div class="d-flex flex-row flex-row justify-content-between">
+                            <span>                      فیلترها</span>
+                            <i class='bx bx-md align-middle bx-chevron-up'></i>
+                        </div>
+                    </a>
+
+                    <div class="dropdown-menu-c filter-sec pt-3" aria-labelledby="dropdownMenuLink">
+                        <div class="mb-2">
+                            <div class="d-flex flex-row justify-content-between">
+                                <div><span>بانوان</span></div>
+                                <div><span>پاک کردن </span></div>
+                            </div>
+                            <div>
+                                <span>پوشاک بیرون</span><span>کفش</span>
+                            </div>
+                        </div>
+                        <div class="mb-2">
+                            <div class="d-flex flex-row justify-content-between ">
+                                <div><span>قیمت</span></div>
+                                <div><span>پاک کردن </span></div>
+                            </div>
+                            <div>
+                                <span>0 - 100 هزار تومان</span>
+                            </div>
+                        </div>
+                        <div class="mb-2">
+                            <div class="d-flex flex-row justify-content-between">
+                                <div><span>رنگ </span></div>
+                                <div><span>پاک کردن </span></div>
+                            </div>
+                            <div>
+                                <span class="bg-pink colorbox"></span>
+                                <span class="bg-banafsh colorbox"></span>
+                                <span class="bg-blue colorbox"></span>
+                                <span class="bg-orange colorbox"></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <a class="text-green ">پاک کردن</a>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="dropdown-c mb-3">
+                    <a class=" drp-btn dropdown-toggle-c d-block" role="button">
+                        <div class="d-flex flex-row flex-row justify-content-between">
+                            <span>                      وضعیت</span>
+                            <i class='bx bx-md align-middle bx-chevron-up'></i>
+                        </div>
+                    </a>                    <div class="dropdown-menu-c " aria-labelledby="dropdownMenuLink">
+                        <ul class="list-group no-bullet">
+                            <li class="p-1"><a href="#">موجود</a>
+                            </li>
+                            <li class="p-1"><a href="#">در انبار</a></li>
+                        </ul>
+
+
+                    </div>
+                </div>
+                <div class="dropdown-c mb-3">
+                    <a class=" drp-btn dropdown-toggle-c d-block"  role="button">
+                        <div class="d-flex flex-row flex-row justify-content-between">
+                            <span>                      قیمت</span>
+                            <i class='bx bx-md align-middle bx-chevron-up'></i>
+                        </div>
+                    </a>
+
+                    <div class="dropdown-menu-c " aria-labelledby="dropdownMenuLink">
+                        <p>
+
+                            <input type="text" id="amount">
+                        </p>
+
+                        <div id="slider-range"></div>
+
+
+                    </div>
+                </div>
+                <div class="dropdown-c mb-3">
+                    <a class=" drp-btn dropdown-toggle-c d-block"  role="button">
+                        <div class="d-flex flex-row flex-row justify-content-between">
+                            <span>                      رنگ</span>
+                            <i class='bx bx-md align-middle bx-chevron-up'></i>
+                        </div>
+                    </a>
+
+                    <div class="dropdown-menu-c " aria-labelledby="dropdownMenuLink">
+
+                        <div class="d-flex flex-row  align-items-center">
+                            <div class="pl-2 color-sec">
+                                <input type="checkbox" id="ch1" name="nn" class="colorbx">
+                                <label for="ch1" class="bg-blue colorbx"><i class='bx bx-sm bx-check '></i></label>
+
+                            </div>
+                            <div class="pl-2 color-sec">
+                                <input type="checkbox" id="ch2" name="nn" class="colorbx">
+                                <label class="bg-orange colorbx" for="ch2"><i class='bx bx-sm bx-check '></i></label>
+
+                            </div>
+                            <div class="pl-2 color-sec">
+                                <input type="checkbox" id="ch3" name="nn" class="colorbx">
+                                <label class="bg-banafsh colorbx" for="ch3"><i class='bx bx-sm bx-check '></i></label>
+
+                            </div>
+                            <div class="color-sec">
+                                <input type="checkbox" id="ch4" name="nn" class="colorbx">
+                                <label class="bg-pink colorbx" for="ch4"><i class='bx bx-sm bx-check '></i></label>
+
+                            </div>
+                        </div>
+                        <div>
+                            <a href="" class="text-green">2 مورد بیشتر</a>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="dropdown-c mb-3 mn">
+                    <a class=" drp-btn dropdown-toggle-c d-block" role="button">
+                        <div class="d-flex flex-row flex-row justify-content-between">
+                            <span>                      مردانه</span>
+                            <i class='bx bx-md align-middle bx-chevron-up'></i>
+                        </div>
+                    </a>
+
+                    <div class="dropdown-menu-c " aria-labelledby="dropdownMenuLink">
+                        <div class="form-group">
+                            <input class="border-top-0 border-left-0 border-right-0 form-control form-text border-rad-0"
+                                   type="text" placeholder="جستجو . . .">
+                        </div>
+                        <div>
+                            <div class="align-items-center">
+
+                                <input type="checkbox" id="cc1" name="nn">
+                                <label class="m-0 align-middle" for="cc1"><i
+                                        class='bx bx-check align-middle'></i></label>
+                                <a href=""> لباس بیرون</a>
+                            </div>
+                            <div class="align-items-center">
+
+                                <input type="checkbox" id="cc2" name="nn">
+                                <label class="m-0 align-middle" for="cc2"><i
+                                        class='bx bx-check align-middle'></i></label>
+                                <a href=""> اکسسوری</a>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="dropdown-c mb-3 mn">
+                    <a class=" drp-btn dropdown-toggle-c d-block"  role="button">
+                        <div class="d-flex flex-row flex-row justify-content-between">
+                            <span>                      زنانه</span>
+                            <i class='bx bx-md align-middle bx-chevron-up'></i>
+                        </div>
+                    </a>
+
+                    <div class="dropdown-menu-c " aria-labelledby="dropdownMenuLink">
+                        <div class="form-group">
+                            <input class="border-top-0 border-left-0 border-right-0 form-control form-text border-rad-0"
+                                   type="text" placeholder="جستجو . . .">
+                        </div>
+                        <div>
+                            <div class="align-items-center">
+
+                                <input type="checkbox" id="cc4" name="nn">
+                                <label class="m-0 align-middle" for="cc4"><i
+                                        class='bx bx-check align-middle'></i></label>
+                                <a href=""> لباس بیرون</a>
+                            </div>
+                            <div class="align-items-center">
+
+                                <input type="checkbox" id="cc5" name="nn">
+                                <label class="m-0 align-middle" for="cc5"><i
+                                        class='bx bx-check align-middle'></i></label>
+                                <a href=""> اکسسوری</a>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!--Right Side Bar End-->
+
+            <!--Product List-->
+            <div class="col-lg-9">
+                <div class="row">
+                    <div class="col-12 pb-2  d-flex flex-row justify-content-between align-items-center">
+                        <div>
+                            <form class="align-middle d-table-cell  ">
+                                <div class="form-group form-inline  mb-0">
+                                    <label for="a">بر اساس :&nbsp</label>
+                                    <select class="form-control custom-select " name="" id="a">
+                                        <option value="">محبوب</option>
+                                    </select>
+                                </div>
+
+
+                            </form>
+                        </div>
+                        <div>
+                            <ul class="list-group-horizontal list-group ">
+                                <li class="list-inline-item border-left px-2">
+                                    <button class="border-0 bg-transparent" id="s2">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="30"
+                                             viewBox="0 0 20 30">
+                                            <path id="Rectangle_21_copy_20" data-name="Rectangle 21 copy 20" fill="#aaa"
+                                                  class="cls-1"
+                                                  d="M12.008,11.006h7.986v8H12.008v-8Zm-12,0H7.994v8H0.008v-8Zm0,11H7.994v8H0.008v-8Zm12,0h7.986v8H12.008v-8Zm-12-22H8v8H0.009v-8ZM12,0.006h7.991v8H12v-8Z"></path>
+                                        </svg>
+                                    </button>
+                                </li>
+                                <li class="list-inline-item  border-left px-2 ">
+                                    <button id="s3" class="border-0 bg-transparent">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="30"
+                                             viewBox="0 0 32 30">
+                                            <path id="Rectangle_21_copy_22" data-name="Rectangle 21 copy 22" fill="#aaa"
+                                                  class="cls-1"
+                                                  d="M12.008,11.006h7.986v8H12.008v-8Zm-12,0H7.994v8H0.008v-8Zm0,11H7.994v8H0.008v-8Zm12,0h7.986v8H12.008v-8Zm-12-22H8v8H0.009v-8ZM12,0.006h7.991v8H12v-8Zm12,11h7.986v8H24.008v-8Zm0,11h7.986v8H24.008v-8Zm0-22h7.991v8H24v-8Z"></path>
+                                        </svg>
+                                    </button>
+                                </li>
+                                <li class=" list-inline-item">
+                                    <button id="s4" class="border-0 bg-transparent">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="41" height="30"
+                                             viewBox="0 0 41 30">
+                                            <path id="Rectangle_21_copy_29" data-name="Rectangle 21 copy 29" fill="#aaa"
+                                                  class="cls-1"
+                                                  d="M11.008,11.006h7.986v8H11.008v-8Zm-11,0H7.994v8H0.008v-8Zm0,11H7.994v8H0.008v-8Zm11,0h7.986v8H11.008v-8Zm-11-22H8v8H0.008v-8ZM11,0.006h7.991v8H11v-8Zm11,11h7.986v8H22.008v-8Zm0,11h7.986v8H22.008v-8Zm0-22h7.991v8H22v-8Zm11,11h7.986v8H33.008v-8Zm0,11h7.986v8H33.008v-8Zm0-22h7.991v8H33v-8Z"></path>
+                                        </svg>
+                                    </button>
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <form action="">
+                                <div class="form-group form-inline mb-0">
+                                    <label class="" for="b">تعداد :&nbsp</label>
+                                    <select class="form-control custom-select" id="b">
+                                        <option value="">24</option>
+                                    </select>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 ">
+                        <div class="featured-content mt-4">
+                            <div class="featured-img card-h250">
+                                <img class="img-fluid width-100" src="img/shoes_product1.png" alt="">
+                                <div class="product-label rounded-circle background-btn align-middle">حراج</div>
+                                <div class="overlay ">
+                                    <a class="overlay-circle rounded-circle  text-center text-black-50" href=""><i
+                                            class='bx bx-sm bx-basket bx-fw'></i></a>
+                                    <a class="overlay-circle rounded-circle  text-center text-black-50 " href=""><i
+                                            class='bx bx-sm bx-search bx-fw'></i></a>
+                                    <a class="overlay-circle rounded-circle  text-center text-black-50" href=""><i
+                                            class='bx bx-sm bx-heart bx-fw'></i></a>
+                                </div>
+                            </div>
+                            <div class="featured-text pt-2 text-center">
+                                <a href="" class="text-green ">کفش مناسب پیاده روی</a>
+                                <p class="mt-2  text-center">100 هزار تومان</p>
+                                <div class="d-flex flex-row justify-content-center">
+                                    <div class="ml-2">
+                                        <input type="radio" id="m" name="nn">
+                                        <label for="m">S</label>
+                                    </div>
+                                    <div>
+                                        <input type="radio" id="m2" name="nn">
+                                        <label for="m2">L</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="col-lg-3 ">
+                        <div class="featured-content mt-4">
+                            <div class="featured-img card-h250">
+                                <img class="img-fluid width-100" src="img/shoes_product2.png" alt="">
+                                <div class="product-label rounded-circle background-btn align-middle">حراج</div>
+                                <div class="overlay ">
+                                    <a class="overlay-circle rounded-circle  text-center text-black-50" href=""><i
+                                            class='bx bx-sm bx-basket bx-fw'></i></a>
+                                    <a class="overlay-circle rounded-circle  text-center text-black-50 " href=""><i
+                                            class='bx bx-sm bx-search bx-fw'></i></a>
+                                    <a class="overlay-circle rounded-circle  text-center text-black-50" href=""><i
+                                            class='bx bx-sm bx-heart bx-fw'></i></a>
+                                </div>
+                            </div>
+                            <div class="featured-text pt-2 text-center">
+                                <a href="" class="text-green ">کفش مناسب پیاده روی</a>
+                                <p class="mt-2  text-center">100 هزار تومان</p>
+                                <div class="d-flex flex-row justify-content-center">
+                                    <div class="ml-2">
+                                        <input type="radio" id="m5" name="nn">
+                                        <label for="m5">S</label>
+                                    </div>
+                                    <div>
+                                        <input type="radio" id="m6" name="nn">
+                                        <label for="m6">L</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="col-lg-3 ">
+                        <div class="featured-content mt-4">
+                            <div class="featured-img card-h250">
+                                <img class="img-fluid width-100" src="img/shoes_product3.png" alt="">
+                                <div class="product-label rounded-circle background-btn align-middle">حراج</div>
+                                <div class="overlay ">
+                                    <a class="overlay-circle rounded-circle  text-center text-black-50" href=""><i
+                                            class='bx bx-sm bx-basket bx-fw'></i></a>
+                                    <a class="overlay-circle rounded-circle  text-center text-black-50 " href=""><i
+                                            class='bx bx-sm bx-search bx-fw'></i></a>
+                                    <a class="overlay-circle rounded-circle  text-center text-black-50" href=""><i
+                                            class='bx bx-sm bx-heart bx-fw'></i></a>
+                                </div>
+                            </div>
+                            <div class="featured-text pt-2 text-center">
+                                <a href="" class="text-green ">کفش مناسب پیاده روی</a>
+                                <p class="mt-2  text-center">100 هزار تومان</p>
+                                <div class="d-flex flex-row justify-content-center">
+                                    <div class="ml-2">
+                                        <input type="radio" id="m7" name="nn">
+                                        <label for="m7">S</label>
+                                    </div>
+                                    <div>
+                                        <input type="radio" id="m8" name="nn">
+                                        <label for="m8">L</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="col-lg-3 ">
+                        <div class="featured-content mt-4">
+                            <div class="featured-img card-h250">
+                                <img class="img-fluid width-100" src="img/shoes_product4.png" alt="">
+                                <div class="product-label rounded-circle background-btn align-middle">حراج</div>
+                                <div class="overlay ">
+                                    <a class="overlay-circle rounded-circle  text-center text-black-50" href=""><i
+                                            class='bx bx-sm bx-basket bx-fw'></i></a>
+                                    <a class="overlay-circle rounded-circle  text-center text-black-50 " href=""><i
+                                            class='bx bx-sm bx-search bx-fw'></i></a>
+                                    <a class="overlay-circle rounded-circle  text-center text-black-50" href=""><i
+                                            class='bx bx-sm bx-heart bx-fw'></i></a>
+                                </div>
+                            </div>
+                            <div class="featured-text pt-2 text-center">
+                                <a href="" class="text-green ">کفش مناسب پیاده روی</a>
+                                <p class="mt-2  text-center">100 هزار تومان</p>
+                                <div class="d-flex flex-row justify-content-center">
+                                    <div class="ml-2">
+                                        <input type="radio" id="m10" name="nn">
+                                        <label for="m10">S</label>
+                                    </div>
+                                    <div>
+                                        <input type="radio" id="m9" name="nn">
+                                        <label for="m9">L</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="col-lg-3 ">
+                        <div class="featured-content mt-4">
+                            <div class="featured-img card-h250">
+                                <img class="img-fluid width-100" src="img/shoes_product5.png" alt="">
+                                <div class="product-label rounded-circle background-btn align-middle">حراج</div>
+                                <div class="overlay ">
+                                    <a class="overlay-circle rounded-circle  text-center text-black-50" href=""><i
+                                            class='bx bx-sm bx-basket bx-fw'></i></a>
+                                    <a class="overlay-circle rounded-circle  text-center text-black-50 " href=""><i
+                                            class='bx bx-sm bx-search bx-fw'></i></a>
+                                    <a class="overlay-circle rounded-circle  text-center text-black-50" href=""><i
+                                            class='bx bx-sm bx-heart bx-fw'></i></a>
+                                </div>
+                            </div>
+                            <div class="featured-text pt-2 text-center">
+                                <a href="" class="text-green ">کفش مناسب پیاده روی</a>
+                                <p class="mt-2  text-center">100 هزار تومان</p>
+                                <div class="d-flex flex-row justify-content-center">
+                                    <div class="ml-2">
+                                        <input type="radio" id="n1" name="nn">
+                                        <label for="n1">S</label>
+                                    </div>
+                                    <div>
+                                        <input type="radio" id="n2" name="nn">
+                                        <label for="n2">L</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="col-lg-3 ">
+                        <div class="featured-content mt-4">
+                            <div class="featured-img card-h250">
+                                <img class="img-fluid width-100" src="img/shoes_product6.png" alt="">
+                                <div class="product-label rounded-circle background-btn align-middle">حراج</div>
+                                <div class="overlay ">
+                                    <a class="overlay-circle rounded-circle  text-center text-black-50" href=""><i
+                                            class='bx bx-sm bx-basket bx-fw'></i></a>
+                                    <a class="overlay-circle rounded-circle  text-center text-black-50 " href=""><i
+                                            class='bx bx-sm bx-search bx-fw'></i></a>
+                                    <a class="overlay-circle rounded-circle  text-center text-black-50" href=""><i
+                                            class='bx bx-sm bx-heart bx-fw'></i></a>
+                                </div>
+                            </div>
+                            <div class="featured-text pt-2 text-center">
+                                <a href="" class="text-green ">کفش مناسب پیاده روی</a>
+                                <p class="mt-2  text-center">100 هزار تومان</p>
+                                <div class="d-flex flex-row justify-content-center">
+                                    <div class="ml-2">
+                                        <input type="radio" id="n4" name="nn">
+                                        <label for="n4">S</label>
+                                    </div>
+                                    <div>
+                                        <input type="radio" id="n5" name="nn">
+                                        <label for="n5">L</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="col-lg-3 ">
+                        <div class="featured-content mt-4">
+                            <div class="featured-img card-h250">
+                                <img class="img-fluid width-100" src="img/shoes_product7.png" alt="">
+                                <div class="product-label rounded-circle background-btn align-middle">حراج</div>
+                                <div class="overlay ">
+                                    <a class="overlay-circle rounded-circle  text-center text-black-50" href=""><i
+                                            class='bx bx-sm bx-basket bx-fw'></i></a>
+                                    <a class="overlay-circle rounded-circle  text-center text-black-50 " href=""><i
+                                            class='bx bx-sm bx-search bx-fw'></i></a>
+                                    <a class="overlay-circle rounded-circle  text-center text-black-50" href=""><i
+                                            class='bx bx-sm bx-heart bx-fw'></i></a>
+                                </div>
+                            </div>
+                            <div class="featured-text pt-2 text-center">
+                                <a href="" class="text-green ">کفش مناسب پیاده روی</a>
+                                <p class="mt-2  text-center">100 هزار تومان</p>
+                                <div class="d-flex flex-row justify-content-center">
+                                    <div class="ml-2">
+                                        <input type="radio" id="n6" name="nn">
+                                        <label for="n6">S</label>
+                                    </div>
+                                    <div>
+                                        <input type="radio" id="n7" name="nn">
+                                        <label for="n7">L</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="col-lg-3 ">
+                        <div class="featured-content mt-4">
+                            <div class="featured-img card-h250">
+                                <img class="img-fluid width-100" src="img/shoes_product8.png" alt="">
+                                <div class="product-label rounded-circle background-btn align-middle">حراج</div>
+                                <div class="overlay ">
+                                    <a class="overlay-circle rounded-circle  text-center text-black-50" href=""><i
+                                            class='bx bx-sm bx-basket bx-fw'></i></a>
+                                    <a class="overlay-circle rounded-circle  text-center text-black-50 " href=""><i
+                                            class='bx bx-sm bx-search bx-fw'></i></a>
+                                    <a class="overlay-circle rounded-circle  text-center text-black-50" href=""><i
+                                            class='bx bx-sm bx-heart bx-fw'></i></a>
+                                </div>
+                            </div>
+                            <div class="featured-text pt-2 text-center">
+                                <a href="" class="text-green ">کفش مناسب پیاده روی</a>
+                                <p class="mt-2  text-center">100 هزار تومان</p>
+                                <div class="d-flex flex-row justify-content-center">
+                                    <div class="ml-2">
+                                        <input type="radio" id="n9" name="nn">
+                                        <label for="n9">S</label>
+                                    </div>
+                                    <div>
+                                        <input type="radio" id="n10" name="nn">
+                                        <label for="n10">L</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            <!--Product List End-->
+        </div>
+    </div>
+</section>
+
+<!--Main END-->
+
+<footer>
+    <div class="footer pt-4">
+        <div class="container pb-3 border-bottom">
+            <div class="row">
+                <div class="col-md-3 col-sm-6 col-6">
+                    <h5 class=" mb-3"> تاپ شاپ</h5>
+                    <p style="color: #808082">توضیحات تاپ شاپ</p>
+
+                </div>
+                <div class="col-md-3 col-sm-6 col-6">
+                    <h5 class=" mb-3">کمک احتیاج دارید ؟</h5>
+                    <ul class="no-bullet ">
+                        <li><a class="text-8e" href="">حساب من</a></li>
+                        <li><a class="text-8e" href="">تماس با ما</a></li>
+                        <li><a class="text-8e" href="">تموالات متداول</a></li>
+                        <li><a class="text-8e" href="">خدمات مشتری</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-6 col-6">
+                    <h5 class=" mb-3">خرید کالا</h5>
+                    <ul class="no-bullet ">
+                        <li><a class="text-8e" href="">روش های ارسال</a></li>
+                        <li><a class="text-8e" href="">تعویض کالا</a></li>
+                        <li><a class="text-8e" href="">تموالات متداول</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-6 col-6">
+                    <h5 class=" mb-3">درباره ما</h5>
+                    <ul class="no-bullet ">
+                        <li><a class="text-8e" href="">فرم استخدام</a></li>
+                        <li><a class="text-8e" href="">تماس با ما</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="container pb-3  pt-3">
+            <div class="row ">
+                <div class="col-md-4 col-sm-12 text-center">
+                    <i class='bx bx-sm bxl-instagram bx-border bx-tada-hover align-middle'></i>
+                    <i class='bx bx-sm bxl-pinterest-alt bx-border bx-tada-hover align-middle'></i>
+                    <i class='bx bx-sm bxl-facebook bx-border bx-tada-hover align-middle'></i>
+                </div>
+                <div class="col-md-4 col-sm-12 text-center">
+                    <p class="text-center text-808">تمامی حقوق برای طراح محفوظ است </p>
+                </div>
+                <div class="col-md-4 col-sm-12 text-center">
+                    <i class='bx bx-sm bxl-paypal bx-border bx-tada-hover align-middle'></i>
+                    <i class='bx bx-sm bxl-visa bx-border bx-tada-hover align-middle'></i>
+                    <i class='bx bx-sm bxl-mastercard bx-border bx-tada-hover align-middle'></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<script src="OwlCarousel/owl.carousel.min.js"></script>
+<script>
+
+    $('document').ready(function () {
+        $(".dropdown-toggle-c").click(function () {
+            $(this).siblings().slideToggle();
+            $(this).children().children('i').toggleClass('rotate-x');
+        });
+
+        $('#s3').click(function () {
+
+            $('div.featured-content').parent().removeClass('col-lg-3');
+            $('div.featured-content').parent().removeClass('col-lg-6');
+            $('div.featured-img').removeClass('card-h450');
+
+            $('div.featured-img').removeClass('card-h250');
+            $('div.featured-content').parent().addClass('col-lg-4');
+
+        });
+
+        $('#s2').click(function () {
+
+            $('div.featured-content').parent().removeClass('col-lg-3');
+            $('div.featured-content').parent().removeClass('col-lg-4');
+            $('div.featured-img').removeClass('card-h250');
+            $('div.featured-content').parent().addClass('col-lg-6');
+            $('div.featured-img').addClass('card-h450');
+
+        });
+        $('#s4').click(function () {
+
+            $('div.featured-content').parent().removeClass('col-lg-6');
+            $('div.featured-content').parent().removeClass('col-lg-4');
+            $('div.featured-img').removeClass('card-h450');
+            $('div.featured-content').parent().addClass('col-lg-3');
+            $('div.featured-img').addClass('card-h250');
+
+        });
+        <!--Price Slider start-->
+        $(function () {
+            $("#slider-range").slider({
+                range: true,
+                min: 0,
+                max: 500,
+                values: [75, 300],
+                slide: function (event, ui) {
+                    $("#amount").val(ui.values[0] + " - تومان       " + ui.values[1] + " - تومان ");
+                }
+            });
+            $("#amount").val($("#slider-range").slider("values", 0) + " - تومان       " + $("#slider-range").slider("values", 1) +
+                " - تومان");
+        });
+        <!--Price Slider End-->
+
+        $('.filter-sec span').after('<i class=\'bx bx-x p-0 m-0 align-middle \'></i>');
+    });
+
+
+</script>
+
+
+</body>
+</html>
